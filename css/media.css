@@ -1,0 +1,338 @@
+/*************************************************************
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+**************************************************************/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.header-section .container {
+    padding: 0px 10px;
+}
+.banner .carousel-inner .carousel-item p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.carousel-control-prev-icon i{
+    display: none;
+}
+.carousel-control-next-icon i{
+	display: none;
+}
+.banner .carousel-inner .carousel-item .btn-div .btn-info{
+    padding: 8px 20px;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.banner .carousel-inner .carousel-item .btn-div .btn-primary{
+	padding: 8px 30px;
+	border-radius: 0;
+}
+.feature-section .down{
+    margin-top: -24%;
+}
+.history-section .inner-history{
+	margin-top: 10%;
+}
+.service-section .left-service h2{
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.service-section .right-service{
+    width: 100%;
+    margin-top: 80%;
+}
+.service-section .right-service .right-image{
+	margin-top: 50%;
+}
+.case-section .case-left{
+    left: 0;
+}
+.case-section .case-right{
+	width: 100%;
+	height: 0;
+	position: absolute;
+	top: 400px;
+	left: 0px;
+}
+.counting-section{
+	margin-top: 1000px;
+	text-align: center;
+}
+.counting-section ul{
+	margin-left: 90px;
+}
+.pricing-section .main-card{
+	margin-top: 10px;
+}
+.mentor-1{
+    position: absolute;
+    margin-left: -4%;
+    margin-top: -30px;
+}
+.mentor-2{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: -45px;
+}
+.mentor-3{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -25px;
+}
+.mentor-4{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -15px;
+}
+.mentor-5{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -10px;
+}
+.right-side{
+    width: 100%;
+    background-color: #fff;
+    padding: 58px 60px;
+    box-shadow: 3px 3px 5px #e8e8e8;
+    margin-top: 10px;
+}
+
+}
+
+
+/************************************************************** 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+***************************************************************/
+
+@media (min-width: 481px) and (max-width: 767px) {
+.header-section .container {
+    padding: 0px 10px;
+}
+.carousel-control-prev-icon i{
+    margin-top: 7px;
+}
+.carousel-control-next-icon i{
+    margin-top: 7px;
+}
+.banner .carousel-inner .carousel-item p{
+	padding: 0px 80px;
+}
+.feature-section .down{
+    margin-top: -20%;
+}
+.history-section .inner-history{
+	margin-top: 10%;
+}
+.service-section .right-service{
+    width: 100%;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+.service-section .right-service .right-image{
+	margin-top: 50px;
+}
+.service-section .right-service .right-image .print{
+	margin-top: 50px;
+}
+.service-section .right-service .right-image .photo{
+	margin-top: 50px;
+}
+.service-section .left-service{
+	margin-left: -5%;
+}
+.case-section .case-left{
+    left: 0px;
+}
+.case-section .case-right{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 300px;
+	left: 0px;
+}
+.counting-section{
+	margin-top: 750px;
+	text-align: center;
+}
+.counting-section ul{
+	/*margin-left: 90px;*/
+}
+.counting-section ul li{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.pricing-section .main-card{
+	margin-top: 10px;
+}
+.mentor-1{
+    position: absolute;
+    margin-left: -3%;
+    margin-top: -30px;
+}
+.mentor-2{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -45px;
+}
+.mentor-3{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -25px;
+}
+.mentor-4{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -15px;
+}
+.mentor-5{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -5px;
+}
+.right-side{
+    width: 100%;
+    background-color: #fff;
+    padding: 58px 60px;
+    box-shadow: 3px 3px 5px #e8e8e8;
+    margin-top: 10px;
+}
+
+}
+
+
+/******************************************************* 
+  	##Device = Tablets, Ipads (landscape)
+  	##Screen = B/w 768px to 1024px
+********************************************************/
+
+@media (min-width: 768px) and (max-width: 1024px){
+.header-section .container {
+    padding: 0px 10px;
+}
+.feature-section .down{
+    margin-top: -12%;
+}
+.service-section .right-service{
+    width: 100%;
+    margin-top: 80px;
+}
+.service-section .right-service .right-image{
+	margin-top: 50px;
+}
+.service-section .right-service .right-image .print{
+	margin-top: 50px;
+}
+.service-section .right-service .right-image .photo{
+	margin-top: 50px;
+}
+.case-section .case-left{
+    position: absolute;
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    padding: 30px 20px;
+    left: 50px;
+    top: 15px;
+    box-shadow: 1px 1px 5px #989898;
+    z-index: 1;
+}
+.case-section .case-right img{
+	width: 100%;
+	height: 500px;
+}
+.counting-section ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.mentor-1{
+    position: absolute;
+    margin-left: -3%;
+    margin-top: -10px;
+}
+.mentor-2{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -45px;
+}
+.mentor-3{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -25px;
+}
+.mentor-4{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -15px;
+}
+.mentor-5{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -5px;
+}
+.blog-section .triangle{
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: -10px;
+    transform: rotate(45deg);
+    position: absolute;
+    background-color: #e74e3e;
+}
+.right-side{
+    width: 100%;
+    background-color: #fff;
+    padding: 70px 60px;
+    box-shadow: 3px 3px 5px #e8e8e8;
+}
+
+}
+
+/******************************************************** 
+  		##Device = Laptops, Desktops
+  		##Screen = B/w 1025px to 1280px
+*********************************************************/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.feature-section .down{
+    margin-top: -10%;
+}
+.service-section .right-service{
+    width: 100%;
+    margin-top: 90px;
+}
+.service-section .right-service .right-image{
+	margin-top: 30px;
+}
+.service-section .right-service .right-image .print{
+	margin-top: 50px;
+}
+.service-section .right-service .right-image .photo{
+	margin-top: 50px;
+}
+.case-section .case-left{
+    position: absolute;
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    padding: 30px 20px;
+    left: 50px;
+    top: 35px;
+    box-shadow: 1px 1px 5px #989898;
+    z-index: 1;
+}
+.case-section .case-right img{
+	width: 100%;
+	height: 500px;
+}
+.counting-section ul li{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+}
+
